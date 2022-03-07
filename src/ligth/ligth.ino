@@ -34,7 +34,7 @@ void loop() {
   
   
 
-  if (now.hour() >= 21 || now.hour() < 6)
+  if (now.hour() >= 23 || now.hour() < 8)
     {
       digitalWrite(nightLight, HIGH);
       digitalWrite(mainLight, LOW);
